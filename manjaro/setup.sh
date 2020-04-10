@@ -74,7 +74,7 @@ if [ ! -d "${ZSH}/custom/themes/powerlevel10k" ] ; then
 	git clone https://github.com/romkatv/powerlevel10k.git ${ZSH}/custom/themes/powerlevel10k
 fi
 
-zsh
-
 git config --global user.email "jon.corbin8@gmail.com"
 git config --global user.name "Jon Corbin"
+
+zsh

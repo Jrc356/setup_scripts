@@ -59,8 +59,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH}/plugin
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH}/plugins/zsh-autosuggestions
 git clone https://aur.archlinux.org/zsh-syntax-highlighting-git.git ${ZSH}/plugins/zsh-highlighting-git.git 
 
-# clone .zshrc and 
-# TODO: git clone
+# copy .zshrc
+cp ../configs/.zshrc ~/.zshrc
 
 # fonts
 sudo wget https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf -P /usr/share/fonts/TTF

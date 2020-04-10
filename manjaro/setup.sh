@@ -21,6 +21,9 @@ if [ -n "${check}" ] ; then
 	echo "Hyper term already installed. Skipping"
 elif [ -z "${check}" ] ; then
 	yay -S https://aur.archlinux.org/hyper.git
+	hyper -i hyper-pane
+	hyper -i hyper-search
+	hyper -i hypercwd
 fi
 
 # spotify

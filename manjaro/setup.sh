@@ -75,6 +75,7 @@ if [ ! -d "${ZSH}/custom/themes/powerlevel10k" ] ; then
 fi
 
 # git config
+git config credential.helper store
 git config --global user.email "jon.corbin8@gmail.com"
 git config --global user.name "Jon Corbin"
 git config --global alias.co checkout

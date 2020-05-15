@@ -160,13 +160,11 @@ module.exports = {
     "tab:next": [
       "ctrl+]",
       "ctrl+right",
-      "ctrl+alt+right",
       "ctrl+tab"
     ],
     "tab:prev": [
       "ctrl+[",
       "ctrl+left",
-      "ctrl+alt+left",
       "ctrl+tab"
     ],
     "pane:splitVertical": "ctrl+d",

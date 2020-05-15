@@ -104,5 +104,8 @@ alias l="ls -lah"
 alias gs="git status"
 source ~/.scripts/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh
 
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
